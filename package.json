@@ -1,0 +1,11 @@
+{
+  "name": "hw6",
+  "version": "1.0.0",
+  "description": "A simple web page with fancy event handlers",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm start"
+  },
+  "author": "Huy tran",
+  "license": "ISC"
+}
