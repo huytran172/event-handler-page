@@ -1,0 +1,96 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.firstWindow, .secondWindow {
+    padding: 20%;
+    width: 99vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+
+    /*Modify later*/
+    background-color: white;
+}
+
+.firstWindow h1, h2 {
+    margin-bottom: 50px;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+}
+
+.firstWindow h1 {
+    font-size: 3em;
+}
+
+.firstWindow h2 {
+    font-size: 2em;
+}
+
+.firstWindow img {
+    width: 100px;
+    height:50px;
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.firstWindow img:hover {
+    width: 130px;
+    height: 60px;
+    opacity: 0.25;
+}
+
+.secondWindow {
+    background-color: #699a9a;
+}
+
+.outermost:hover, .inner:hover, .innermost:hover {
+   cursor: pointer;
+    border-radius: 5px;
+}
+
+.outermost {
+    overflow: visible;
+    width: 500px;
+    height: 500px;
+    background-color: #256767;
+    margin: auto;
+}
+
+.inner {
+    overflow: visible;
+    position: relative;
+    top: -20%;
+    left: -20%;
+    width: 400px;
+    height: 400px;
+    background-color: #d5b36e;
+}
+
+.innermost {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: #ac3d3d;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.innermost-active {
+    top: 0;
+    left: 0;
+}
