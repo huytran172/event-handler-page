@@ -8,18 +8,18 @@
   <script src="./javascripts/mainapp.js"></script>
 </head>
 <body>
-  <div class="firstWindow">
-    <h1>A simple yet fancy web page</h1>
-    <h2>Please Scroll Down</h2>
-    <img src="./img/icon.svg" alt=""/>
-  </div>
-
-  <div class="secondWindow">
-    <div class="outermost">
-      <div class="inner">
-        <div id="inner" class="innermost"></div>
-      </div>
+<progress id="progressbar" value="0" max="100"></progress>
+<div class="firstWindow">
+  <h1>A simple yet fancy web page</h1>
+  <h2>Please scroll down or click the button</h2>
+  <div id="scrollBtn" onclick="scrollTo(0, window.innerHeight)"><img src="./img/icon.svg" id="scrollBtn" alt=""/></div>
+</div>
+<div class="secondWindow">
+  <div class="outermost">
+    <div class="inner">
+      <div class="innermost"></div>
     </div>
   </div>
+</div>
 </body>
 </html>
