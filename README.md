@@ -1,7 +1,8 @@
 # Homework 6 CS4241
 ## Name: Huy Tran
 
-## **Link to website** [Homework 6](http://hqtran-hw6.herokuapp.com/)
+## **Link to website** [Heroku](http://hqtran-hw6.herokuapp.com/)
+## **Link to github** [Github](https://github.com/huytran172/event-handler-page)
 
 ### Technical Achievement
 1. Applying CSS animations
